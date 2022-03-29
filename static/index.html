@@ -51,16 +51,11 @@ function drawCircle(context,entity) {
         lineWidth = 3;
         var x = entity["x"];
         var y = entity["y"];
-        {#//moveTo(x,y);#}
-        {#fillStyle = entity["colour"];#}
-        {#strokeStyle = fillStyle;#}
-        {#arc(x, y, (entity["radius"])?entity["radius"]:50, 0, 2.0 * Math.PI, false);#}
-        {#fill();#}
-        {#image src: https://www.pngaaa.com/detail/4281145#}
-        var img = document.createElement("img");
-        img.src = '/static/img/kuromi.png';
-        drawImage(img,x,y,50,50);
-
+        //moveTo(x,y);
+        fillStyle = entity["colour"];
+        strokeStyle = fillStyle;
+        arc(x, y, (entity["radius"])?entity["radius"]:50, 0, 2.0 * Math.PI, false);
+        fill();
     }
 }
 

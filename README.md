@@ -64,4 +64,3 @@ Contributors
 References
 ============
 https://github.com/abramhindle/WebSocketsExamples/blob/master/chat.py
-https://www.w3schools.com/tags/canvas_drawimage.asp
